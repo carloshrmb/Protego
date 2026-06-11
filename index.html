@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Protego — Cumplimiento Normativo Empresarial</title>
+  <meta name="description" content="Diagnóstico gratuito de cumplimiento normativo para PYMES mexicanas. Identificamos riesgos en 10 áreas críticas antes de que se conviertan en pérdidas." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+
+      <!-- Logo -->
+      <a href="#inicio" class="navbar__logo" aria-label="Protego inicio">
+        <!-- Escudo SVG institucional -->
+        <svg class="navbar__escudo" viewBox="0 0 40 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M20 2L4 9V22C4 32.5 11.2 42.2 20 46C28.8 42.2 36 32.5 36 22V9L20 2Z" fill="#1639A0" stroke="#C8A96E" stroke-width="1.5"/>
+          <path d="M20 8L10 13V22C10 28.8 14.5 35 20 37.5C25.5 35 30 28.8 30 22V13L20 8Z" fill="none" stroke="#C8A96E" stroke-width="0.8" opacity="0.6"/>
+          <text x="20" y="27" text-anchor="middle" font-family="serif" font-size="11" font-weight="700" fill="#C8A96E" letter-spacing="0.5">P</text>
+        </svg>
+        <span class="navbar__nombre">PROTEGO</span>
+      </a>
+
+      <!-- Menú de navegación -->
+      <nav class="navbar__nav" id="navbar-nav" role="navigation" aria-label="Navegación principal">
+        <ul class="navbar__lista">
+          <li><a href="#manifesto" class="navbar__enlace">Filosofía</a></li>
+          <li><a href="#pilares" class="navbar__enlace">Pilares</a></li>
+          <li><a href="#areas" class="navbar__enlace">10 Áreas</a></li>
+          <li><a href="#proceso" class="navbar__enlace">Proceso</a></li>
+          <li><a href="#contacto" class="navbar__enlace">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <!-- CTA + hamburguesa -->
+      <div class="navbar__acciones">
+        <a href="#contacto" class="btn btn--dorado navbar__cta">Solicitar diagnóstico</a>
+        <button class="navbar__hamburguesa" id="hamburguesa" aria-label="Abrir menú" aria-expanded="false" aria-controls="navbar-nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section class="hero" id="inicio">
+    <div class="container hero__inner">
+
+      <div class="hero__contenido">
+        <p class="hero__pretitulo">Diagnóstico Normativo Gratuito</p>
+        <h1 class="hero__titulo">
+          Identificamos riesgos antes de que se conviertan en pérdidas
+        </h1>
+        <p class="hero__subtitulo">
+          Evaluamos el estado de cumplimiento normativo de su empresa en las 10 áreas críticas del marco legal mexicano. Recibirá un reporte ejecutivo personalizado en 72 horas, sin costo y sin compromiso.
+        </p>
+        <div class="hero__botones">
+          <a href="#contacto" class="btn btn--dorado btn--grande">Solicitar diagnóstico gratuito</a>
+          <a href="#proceso" class="btn btn--contorno btn--grande">Ver cómo funciona</a>
+        </div>
+      </div>
+
+      <!-- Estadísticas -->
+      <div class="hero__estadisticas">
+        <div class="hero__stat">
+          <span class="hero__stat-numero">10</span>
+          <span class="hero__stat-etiqueta">Áreas normativas evaluadas</span>
+        </div>
+        <div class="hero__stat-divisor" aria-hidden="true"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-numero">100%</span>
+          <span class="hero__stat-etiqueta">Diagnóstico gratuito</span>
+        </div>
+        <div class="hero__stat-divisor" aria-hidden="true"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-numero">72h</span>
+          <span class="hero__stat-etiqueta">Entrega del reporte</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Decoración geométrica sutil -->
+    <div class="hero__ornamento" aria-hidden="true"></div>
+  </section>
+
+
+  <!-- ============================================================
+       MANIFESTO
+  ============================================================ -->
+  <section class="manifesto" id="manifesto">
+    <div class="container manifesto__inner">
+      <div class="manifesto__linea" aria-hidden="true"></div>
+      <blockquote class="manifesto__cita">
+        <p>"El cumplimiento normativo no es un gasto.<br class="manifesto__salto" />
+        Es la herramienta más eficaz de protección patrimonial<br class="manifesto__salto" />
+        con la que cuenta una empresa mexicana."</p>
+      </blockquote>
+      <div class="manifesto__linea" aria-hidden="true"></div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       PILARES
+  ============================================================ -->
+  <section class="pilares" id="pilares">
+    <div class="container">
+      <div class="seccion__encabezado">
+        <p class="seccion__etiqueta">Fundamentos</p>
+        <h2 class="seccion__titulo">El marco sobre el que construimos</h2>
+        <p class="seccion__descripcion">Protego opera bajo cuatro principios que definen nuestra metodología y el valor que entregamos a cada cliente.</p>
+      </div>
+
+      <div class="pilares__grid">
+
+        <div class="pilar">
+          <div class="pilar__icono" aria-hidden="true">
+            <!-- Icono: balanza -->
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="23" y="8" width="2" height="32" fill="#C8A96E"/>
+              <line x1="24" y1="16" x2="8" y2="28" stroke="#C8A96E" stroke-width="1.5"/>
+              <line x1="24" y1="16" x2="40" y2="28" stroke="#C8A96E" stroke-width="1.5"/>
+              <ellipse cx="8" cy="30" rx="6" ry="3" stroke="#C8A96E" stroke-width="1.5" fill="none"/>
+              <ellipse cx="40" cy="30" rx="6" ry="3" stroke="#C8A96E" stroke-width="1.5" fill="none"/>
+              <line x1="16" y1="40" x2="32" y2="40" stroke="#C8A96E" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h3 class="pilar__titulo">Seguridad jurídica</h3>
+          <p class="pilar__texto">Reducimos la exposición legal de su empresa con un diagnóstico preciso de las obligaciones normativas vigentes en cada área de operación.</p>
+        </div>
+
+        <div class="pilar">
+          <div class="pilar__icono" aria-hidden="true">
+            <!-- Icono: escudo -->
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 6L8 13V24C8 33.9 15.2 43.1 24 46C32.8 43.1 40 33.9 40 24V13L24 6Z" stroke="#C8A96E" stroke-width="1.5" fill="none"/>
+              <path d="M17 24L22 29L31 20" stroke="#C8A96E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="pilar__titulo">Prevención de pérdidas</h3>
+          <p class="pilar__texto">Las sanciones, multas y litigios evitables representan el pasivo más costoso de una PYME. Los identificamos antes de que se materialicen.</p>
+        </div>
+
+        <div class="pilar">
+          <div class="pilar__icono" aria-hidden="true">
+            <!-- Icono: edificio/organización -->
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="10" y="18" width="28" height="24" stroke="#C8A96E" stroke-width="1.5" fill="none"/>
+              <path d="M6 18L24 6L42 18" stroke="#C8A96E" stroke-width="1.5" stroke-linejoin="round"/>
+              <rect x="20" y="30" width="8" height="12" stroke="#C8A96E" stroke-width="1.2" fill="none"/>
+              <rect x="14" y="22" width="5" height="5" stroke="#C8A96E" stroke-width="1" fill="none"/>
+              <rect x="29" y="22" width="5" height="5" stroke="#C8A96E" stroke-width="1" fill="none"/>
+            </svg>
+          </div>
+          <h3 class="pilar__titulo">Integridad organizacional</h3>
+          <p class="pilar__texto">Fortalecemos la estructura interna de su empresa con controles de gobierno corporativo, prevención de fraudes y protección de datos.</p>
+        </div>
+
+        <div class="pilar">
+          <div class="pilar__icono" aria-hidden="true">
+            <!-- Icono: continuidad/ciclo -->
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="15" stroke="#C8A96E" stroke-width="1.5" fill="none"/>
+              <path d="M24 13V24L31 31" stroke="#C8A96E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M35 10L38 15H33" stroke="#C8A96E" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            </svg>
+          </div>
+          <h3 class="pilar__titulo">Continuidad del negocio</h3>
+          <p class="pilar__texto">Un marco normativo sólido es la base de la continuidad operativa. Garantizamos que su empresa esté preparada para crecer sin fricciones regulatorias.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       EL PROBLEMA
+  ============================================================ -->
+  <section class="problema" id="problema">
+    <div class="container">
+      <div class="seccion__encabezado seccion__encabezado--claro">
+        <p class="seccion__etiqueta seccion__etiqueta--claro">La realidad</p>
+        <h2 class="seccion__titulo seccion__titulo--claro">Por qué las PYMES mexicanas están en riesgo</h2>
+        <p class="seccion__descripcion seccion__descripcion--claro">El incumplimiento normativo no suele ser intencional. Es consecuencia de un ecosistema regulatorio complejo y en constante evolución.</p>
+      </div>
+
+      <div class="problema__grid">
+
+        <div class="problema__item">
+          <span class="problema__numero" aria-hidden="true">01</span>
+          <div class="problema__contenido">
+            <h3 class="problema__titulo">Marco regulatorio fragmentado</h3>
+            <p class="problema__texto">Las obligaciones normativas de una PYME se distribuyen entre más de 12 dependencias federales y estatales, con actualizaciones constantes que son difíciles de rastrear sin asesoría especializada.</p>
+          </div>
+        </div>
+
+        <div class="problema__item">
+          <span class="problema__numero" aria-hidden="true">02</span>
+          <div class="problema__contenido">
+            <h3 class="problema__titulo">Costo de la asesoría tradicional</h3>
+            <p class="problema__texto">Los despachos jurídicos convencionales cobran por hora o por área de práctica. Las PYMES terminan sin diagnóstico integral porque no pueden costear la revisión simultánea de todas sus obligaciones.</p>
+          </div>
+        </div>
+
+        <div class="problema__item">
+          <span class="problema__numero" aria-hidden="true">03</span>
+          <div class="problema__contenido">
+            <h3 class="problema__titulo">Incumplimiento invisible</h3>
+            <p class="problema__texto">La mayoría de las empresas no conoce su nivel de exposición hasta que recibe una visita de inspección, una demanda laboral o una notificación fiscal. Para entonces, el costo ya es significativamente mayor.</p>
+          </div>
+        </div>
+
+        <div class="problema__item">
+          <span class="problema__numero" aria-hidden="true">04</span>
+          <div class="problema__contenido">
+            <h3 class="problema__titulo">Ausencia de gobierno corporativo</h3>
+            <p class="problema__texto">El 78% de las PYMES mexicanas opera sin controles internos formales. Esta ausencia multiplica el riesgo de responsabilidad civil y penal de los socios y directivos ante terceros.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       LAS 10 ÁREAS
+  ============================================================ -->
+  <section class="areas" id="areas">
+    <div class="container">
+      <div class="seccion__encabezado">
+        <p class="seccion__etiqueta">Metodología</p>
+        <h2 class="seccion__titulo">Las 10 áreas de evaluación</h2>
+        <p class="seccion__descripcion">Nuestro diagnóstico cubre de forma integral las dimensiones normativas que mayor impacto tienen en la operación y patrimonio de una empresa mexicana.</p>
+      </div>
+
+      <div class="areas__tabla-wrapper" role="region" aria-label="Tabla de áreas normativas">
+        <table class="areas__tabla">
+          <thead>
+            <tr>
+              <th scope="col" class="areas__th areas__th--num">#</th>
+              <th scope="col" class="areas__th">Área normativa</th>
+              <th scope="col" class="areas__th">Alcance principal</th>
+              <th scope="col" class="areas__th areas__th--ref">Marco de referencia</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="areas__fila">
+              <td class="areas__num">01</td>
+              <td class="areas__nombre">Derecho Corporativo</td>
+              <td class="areas__alcance">Constitución societaria, asambleas, libros corporativos, reformas estatutarias</td>
+              <td class="areas__ref">LGSM · Código Civil Federal</td>
+            </tr>
+            <tr class="areas__fila areas__fila--alt">
+              <td class="areas__num">02</td>
+              <td class="areas__nombre">Derecho Laboral</td>
+              <td class="areas__alcance">Contratos individuales, colectivos, reglamento interior, seguridad social, IMSS, INFONAVIT</td>
+              <td class="areas__ref">LFT · LSS · LINFONAVIT</td>
+            </tr>
+            <tr class="areas__fila">
+              <td class="areas__num">03</td>
+              <td class="areas__nombre">Derecho Fiscal</td>
+              <td class="areas__alcance">Declaraciones, comprobantes fiscales, auditoría interna, obligaciones ISR, IVA, IEPS</td>
+              <td class="areas__ref">CFF · LISR · LIVA</td>
+            </tr>
+            <tr class="areas__fila areas__fila--alt">
+              <td class="areas__num">04</td>
+              <td class="areas__nombre">Derecho Mercantil</td>
+              <td class="areas__alcance">Contratos comerciales, títulos de crédito, competencia económica, franquicias</td>
+              <td class="areas__ref">CCom · LFCE · LGTOC</td>
+            </tr>
+            <tr class="areas__fila">
+              <td class="areas__num">05</td>
+              <td class="areas__nombre">Protección de Datos Personales</td>
+              <td class="areas__alcance">Aviso de privacidad, transferencias de datos, medidas de seguridad, derechos ARCO</td>
+              <td class="areas__ref">LFPDPPP · RGPDP</td>
+            </tr>
+            <tr class="areas__fila areas__fila--alt">
+              <td class="areas__num">06</td>
+              <td class="areas__nombre">Prevención de Lavado de Dinero</td>
+              <td class="areas__alcance">Actividades vulnerables, reportes a la UIF, identificación de clientes, PEPs</td>
+              <td class="areas__ref">LFPIORPI · Reglas SAT</td>
+            </tr>
+            <tr class="areas__fila">
+              <td class="areas__num">07</td>
+              <td class="areas__nombre">Responsabilidad Civil</td>
+              <td class="areas__alcance">Seguros, coberturas, responsabilidad de productos, daños a terceros, pasivos contingentes</td>
+              <td class="areas__ref">CCF · LSCS</td>
+            </tr>
+            <tr class="areas__fila areas__fila--alt">
+              <td class="areas__num">08</td>
+              <td class="areas__nombre">Responsabilidad Penal</td>
+              <td class="areas__alcance">Delitos corporativos, defraudación fiscal, responsabilidad de personas morales</td>
+              <td class="areas__ref">CPF · LFRASP</td>
+            </tr>
+            <tr class="areas__fila">
+              <td class="areas__num">09</td>
+              <td class="areas__nombre">Gobierno Corporativo</td>
+              <td class="areas__alcance">Políticas internas, código de ética, conflictos de interés, controles internos, auditoría</td>
+              <td class="areas__ref">ISO 37301 · COSO</td>
+            </tr>
+            <tr class="areas__fila areas__fila--alt">
+              <td class="areas__num">10</td>
+              <td class="areas__nombre">Gestión de Riesgos</td>
+              <td class="areas__alcance">Identificación, evaluación y tratamiento de riesgos operativos, legales y reputacionales</td>
+              <td class="areas__ref">ISO 31000 · COSO ERM</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       PROCESO EN 4 PASOS
+  ============================================================ -->
+  <section class="proceso" id="proceso">
+    <div class="container">
+      <div class="seccion__encabezado seccion__encabezado--claro">
+        <p class="seccion__etiqueta seccion__etiqueta--claro">Metodología</p>
+        <h2 class="seccion__titulo seccion__titulo--claro">Cuatro pasos hacia la certeza</h2>
+        <p class="seccion__descripcion seccion__descripcion--claro">Un proceso diseñado para ser eficiente, confidencial y de alto valor desde el primer contacto.</p>
+      </div>
+
+      <div class="proceso__pasos">
+
+        <div class="proceso__paso">
+          <div class="proceso__paso-num" aria-hidden="true">1</div>
+          <div class="proceso__paso-linea" aria-hidden="true"></div>
+          <div class="proceso__paso-contenido">
+            <h3 class="proceso__paso-titulo">Registro</h3>
+            <p class="proceso__paso-texto">Complete el formulario de contacto con los datos básicos de su empresa. El proceso toma menos de tres minutos y la información es estrictamente confidencial.</p>
+          </div>
+        </div>
+
+        <div class="proceso__paso">
+          <div class="proceso__paso-num" aria-hidden="true">2</div>
+          <div class="proceso__paso-linea" aria-hidden="true"></div>
+          <div class="proceso__paso-contenido">
+            <h3 class="proceso__paso-titulo">Cuestionario</h3>
+            <p class="proceso__paso-texto">Recibirá un cuestionario estructurado en las 10 áreas normativas. Está diseñado para ser respondido por el director o gerente general sin necesidad de formación jurídica previa.</p>
+          </div>
+        </div>
+
+        <div class="proceso__paso">
+          <div class="proceso__paso-num" aria-hidden="true">3</div>
+          <div class="proceso__paso-linea" aria-hidden="true"></div>
+          <div class="proceso__paso-contenido">
+            <h3 class="proceso__paso-titulo">Análisis</h3>
+            <p class="proceso__paso-texto">Nuestro equipo de especialistas revisa las respuestas, identifica brechas normativas y califica el nivel de exposición en cada área conforme al marco legal vigente.</p>
+          </div>
+        </div>
+
+        <div class="proceso__paso">
+          <div class="proceso__paso-num" aria-hidden="true">4</div>
+          <div class="proceso__paso-contenido">
+            <h3 class="proceso__paso-titulo">Reporte ejecutivo</h3>
+            <p class="proceso__paso-texto">En un plazo máximo de 72 horas, recibirá un reporte ejecutivo con el semáforo de cumplimiento por área, hallazgos prioritarios y recomendaciones de acción inmediata.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       VISTA PREVIA DEL REPORTE
+  ============================================================ -->
+  <section class="reporte" id="reporte">
+    <div class="container">
+      <div class="seccion__encabezado">
+        <p class="seccion__etiqueta">Entregable</p>
+        <h2 class="seccion__titulo">Vista previa del reporte</h2>
+        <p class="seccion__descripcion">Una muestra representativa del reporte ejecutivo que recibirá su empresa. Información clara, accionable y priorizada por nivel de riesgo.</p>
+      </div>
+
+      <div class="reporte__mockup">
+
+        <!-- Encabezado del reporte -->
+        <div class="reporte__header">
+          <div class="reporte__header-logo">
+            <svg viewBox="0 0 24 29" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M12 1L2 5.5V13C2 19.5 6.7 25.6 12 27.5C17.3 25.6 22 19.5 22 13V5.5L12 1Z" fill="#1639A0" stroke="#C8A96E" stroke-width="0.8"/>
+              <text x="12" y="17" text-anchor="middle" font-family="serif" font-size="7" font-weight="700" fill="#C8A96E">P</text>
+            </svg>
+            <span>PROTEGO</span>
+          </div>
+          <div class="reporte__header-info">
+            <p class="reporte__empresa">Empresa Ejemplo, S.A. de C.V.</p>
+            <p class="reporte__meta">Diagnóstico Normativo Integral · Junio 2025</p>
+          </div>
+          <div class="reporte__header-badge">
+            <span class="reporte__badge-texto">CONFIDENCIAL</span>
+          </div>
+        </div>
+
+        <!-- Semáforo de cumplimiento -->
+        <div class="reporte__cuerpo">
+          <h3 class="reporte__seccion-titulo">Semáforo de Cumplimiento por Área</h3>
+
+          <div class="reporte__areas">
+
+            <div class="reporte__area-item">
+              <span class="reporte__area-nombre">Derecho Corporativo</span>
+              <div class="reporte__barra-contenedor" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" aria-label="Corporativo: 82%">
+                <div class="reporte__barra reporte__barra--verde" style="width: 82%"></div>
+              </div>
+              <span class="reporte__porcentaje">82%</span>
+              <span class="reporte__semaforo reporte__semaforo--verde" aria-label="Verde">●</span>
+            </div>
+
+            <div class="reporte__area-item">
+              <span class="reporte__area-nombre">Derecho Laboral</span>
+              <div class="reporte__barra-contenedor" role="progressbar" aria-valuenow="61" aria-valuemin="0" aria-valuemax="100" aria-label="Laboral: 61%">
+                <div class="reporte__barra reporte__barra--amarillo" style="width: 61%"></div>
+              </div>
+              <span class="reporte__porcentaje">61%</span>
+              <span class="reporte__semaforo reporte__semaforo--amarillo" aria-label="Amarillo">●</span>
+            </div>
+
+            <div class="reporte__area-item">
+              <span class="reporte__area-nombre">Derecho Fiscal</span>
+              <div class="reporte__barra-contenedor" role="progressbar" aria-valuenow="74" aria-valuemin="0" aria-valuemax="100" aria-label="Fiscal: 74%">
+                <div class="reporte__barra reporte__barra--amarillo" style="width: 74%"></div>
+              </div>
+              <span class="reporte__porcentaje">74%</span>
+              <span class="reporte__semaforo reporte__semaforo--amarillo" aria-label="Amarillo">●</span>
+            </div>
+
+            <div class="reporte__area-item">
+              <span class="reporte__area-nombre">Protección de Datos</span>
+              <div class="reporte__barra-contenedor" role="progressbar" aria-valuenow="38" aria-valuemin="0" aria-valuemax="100" aria-label="Datos: 38%">
+                <div class="reporte__barra reporte__barra--rojo" style="width: 38%"></div>
+              </div>
+              <span class="reporte__porcentaje">38%</span>
+              <span class="reporte__semaforo reporte__semaforo--rojo" aria-label="Rojo">●</span>
+            </div>
+
+            <div class="reporte__area-item">
+              <span class="reporte__area-nombre">Prev. Lavado de Dinero</span>
+              <div class="reporte__barra-contenedor" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" aria-label="PLD: 45%">
+                <div class="reporte__barra reporte__barra--rojo" style="width: 45%"></div>
+              </div>
+              <span class="reporte__porcentaje">45%</span>
+              <span class="reporte__semaforo reporte__semaforo--rojo" aria-label="Rojo">●</span>
+            </div>
+
+            <div class="reporte__area-item">
+              <span class="reporte__area-nombre">Gobierno Corporativo</span>
+              <div class="reporte__barra-contenedor" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" aria-label="Gobierno: 55%">
+                <div class="reporte__barra reporte__barra--amarillo" style="width: 55%"></div>
+              </div>
+              <span class="reporte__porcentaje">55%</span>
+              <span class="reporte__semaforo reporte__semaforo--amarillo" aria-label="Amarillo">●</span>
+            </div>
+
+            <div class="reporte__area-item">
+              <span class="reporte__area-nombre">Gestión de Riesgos</span>
+              <div class="reporte__barra-contenedor" role="progressbar" aria-valuenow="29" aria-valuemin="0" aria-valuemax="100" aria-label="Riesgos: 29%">
+                <div class="reporte__barra reporte__barra--rojo" style="width: 29%"></div>
+              </div>
+              <span class="reporte__porcentaje">29%</span>
+              <span class="reporte__semaforo reporte__semaforo--rojo" aria-label="Rojo">●</span>
+            </div>
+
+            <div class="reporte__area-item">
+              <span class="reporte__area-nombre">Responsabilidad Civil</span>
+              <div class="reporte__barra-contenedor" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" aria-label="Civil: 88%">
+                <div class="reporte__barra reporte__barra--verde" style="width: 88%"></div>
+              </div>
+              <span class="reporte__porcentaje">88%</span>
+              <span class="reporte__semaforo reporte__semaforo--verde" aria-label="Verde">●</span>
+            </div>
+
+          </div>
+
+          <!-- Leyenda del semáforo -->
+          <div class="reporte__leyenda">
+            <span class="reporte__leyenda-item"><span class="reporte__semaforo reporte__semaforo--verde">●</span> 80–100% Cumplimiento satisfactorio</span>
+            <span class="reporte__leyenda-item"><span class="reporte__semaforo reporte__semaforo--amarillo">●</span> 50–79% Atención recomendada</span>
+            <span class="reporte__leyenda-item"><span class="reporte__semaforo reporte__semaforo--rojo">●</span> 0–49% Riesgo crítico</span>
+          </div>
+
+        </div>
+
+        <!-- Pie del mockup -->
+        <div class="reporte__footer">
+          <p>Este diagnóstico tiene carácter orientativo. Para implementación de medidas correctivas, se requiere análisis jurídico completo.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FORMULARIO DE CONTACTO
+  ============================================================ -->
+  <section class="contacto" id="contacto">
+    <div class="container">
+      <div class="contacto__inner">
+
+        <div class="contacto__texto">
+          <p class="seccion__etiqueta seccion__etiqueta--claro">Primer paso</p>
+          <h2 class="seccion__titulo seccion__titulo--claro">Solicite su diagnóstico gratuito</h2>
+          <p class="seccion__descripcion seccion__descripcion--claro">Complete el formulario y un especialista de Protego se pondrá en contacto con usted en un plazo máximo de 24 horas hábiles para dar inicio al proceso.</p>
+
+          <div class="contacto__garantias">
+            <div class="contacto__garantia">
+              <span class="contacto__garantia-icono" aria-hidden="true">—</span>
+              <span>Sin costo ni compromiso</span>
+            </div>
+            <div class="contacto__garantia">
+              <span class="contacto__garantia-icono" aria-hidden="true">—</span>
+              <span>Información estrictamente confidencial</span>
+            </div>
+            <div class="contacto__garantia">
+              <span class="contacto__garantia-icono" aria-hidden="true">—</span>
+              <span>Reporte entregado en 72 horas</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulario -->
+        <form class="formulario" id="formulario-contacto" novalidate>
+          <div class="formulario__fila">
+            <div class="formulario__campo">
+              <label class="formulario__etiqueta" for="nombre">Nombre completo <span aria-hidden="true">*</span></label>
+              <input
+                class="formulario__input"
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="Lic. María García"
+                autocomplete="name"
+                required
+              />
+              <span class="formulario__error" id="error-nombre" role="alert" aria-live="polite"></span>
+            </div>
+            <div class="formulario__campo">
+              <label class="formulario__etiqueta" for="cargo">Cargo <span aria-hidden="true">*</span></label>
+              <input
+                class="formulario__input"
+                type="text"
+                id="cargo"
+                name="cargo"
+                placeholder="Director General"
+                required
+              />
+              <span class="formulario__error" id="error-cargo" role="alert" aria-live="polite"></span>
+            </div>
+          </div>
+
+          <div class="formulario__campo">
+            <label class="formulario__etiqueta" for="empresa">Empresa <span aria-hidden="true">*</span></label>
+            <input
+              class="formulario__input"
+              type="text"
+              id="empresa"
+              name="empresa"
+              placeholder="Nombre Comercial, S.A. de C.V."
+              required
+            />
+            <span class="formulario__error" id="error-empresa" role="alert" aria-live="polite"></span>
+          </div>
+
+          <div class="formulario__campo">
+            <label class="formulario__etiqueta" for="correo">Correo electrónico <span aria-hidden="true">*</span></label>
+            <input
+              class="formulario__input"
+              type="email"
+              id="correo"
+              name="correo"
+              placeholder="director@empresa.com.mx"
+              autocomplete="email"
+              required
+            />
+            <span class="formulario__error" id="error-correo" role="alert" aria-live="polite"></span>
+          </div>
+
+          <div class="formulario__campo">
+            <label class="formulario__etiqueta" for="sector">Sector <span aria-hidden="true">*</span></label>
+            <select class="formulario__input formulario__select" id="sector" name="sector" required>
+              <option value="" disabled selected>Seleccione el sector de su empresa</option>
+              <option value="manufactura">Manufactura e industria</option>
+              <option value="comercio">Comercio y distribución</option>
+              <option value="servicios">Servicios profesionales</option>
+              <option value="tecnologia">Tecnología y software</option>
+              <option value="construccion">Construcción e inmobiliario</option>
+              <option value="salud">Salud y ciencias de la vida</option>
+              <option value="alimentos">Alimentos y bebidas</option>
+              <option value="logistica">Logística y transporte</option>
+              <option value="financiero">Servicios financieros</option>
+              <option value="otro">Otro sector</option>
+            </select>
+            <span class="formulario__error" id="error-sector" role="alert" aria-live="polite"></span>
+          </div>
+
+          <!-- Aviso de error general -->
+          <div class="formulario__aviso-error" id="aviso-error" role="alert" aria-live="assertive" hidden>
+            Por favor, complete todos los campos requeridos antes de continuar.
+          </div>
+
+          <!-- Aviso de éxito -->
+          <div class="formulario__aviso-exito" id="aviso-exito" role="status" aria-live="polite" hidden>
+            <strong>Solicitud recibida.</strong> Un especialista se pondrá en contacto con usted en las próximas 24 horas hábiles.
+          </div>
+
+          <button type="submit" class="btn btn--dorado btn--grande btn--completo formulario__boton">
+            Solicitar diagnóstico gratuito
+          </button>
+
+          <p class="formulario__privacidad">
+            Al enviar este formulario, acepta que Protego procese sus datos conforme a nuestra política de privacidad y a lo dispuesto por la LFPDPPP.
+          </p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+
+      <div class="footer__marca">
+        <div class="footer__logo">
+          <svg viewBox="0 0 40 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M20 2L4 9V22C4 32.5 11.2 42.2 20 46C28.8 42.2 36 32.5 36 22V9L20 2Z" fill="#1639A0" stroke="#C8A96E" stroke-width="1.5"/>
+            <text x="20" y="27" text-anchor="middle" font-family="serif" font-size="11" font-weight="700" fill="#C8A96E" letter-spacing="0.5">P</text>
+          </svg>
+          <span class="footer__nombre">PROTEGO</span>
+        </div>
+        <p class="footer__descripcion">Cumplimiento Normativo Empresarial para PYMES mexicanas. Diagnóstico integral basado en metodología internacional.</p>
+        <p class="footer__ubicacion">Monterrey, Nuevo León, México</p>
+      </div>
+
+      <div class="footer__normas">
+        <h4 class="footer__normas-titulo">Marco metodológico</h4>
+        <ul class="footer__normas-lista">
+          <li>
+            <span class="footer__norma-sigla">ISO 37301:2021</span>
+            <span class="footer__norma-desc">Sistema de Gestión de Compliance</span>
+          </li>
+          <li>
+            <span class="footer__norma-sigla">ISO 31000:2018</span>
+            <span class="footer__norma-desc">Gestión de Riesgos</span>
+          </li>
+          <li>
+            <span class="footer__norma-sigla">COSO ERM 2017</span>
+            <span class="footer__norma-desc">Gestión de Riesgos Empresariales</span>
+          </li>
+          <li>
+            <span class="footer__norma-sigla">COSO IC 2013</span>
+            <span class="footer__norma-desc">Control Interno</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__nav">
+        <h4 class="footer__nav-titulo">Secciones</h4>
+        <ul class="footer__nav-lista">
+          <li><a href="#manifesto" class="footer__enlace">Filosofía</a></li>
+          <li><a href="#pilares" class="footer__enlace">Pilares</a></li>
+          <li><a href="#problema" class="footer__enlace">El problema</a></li>
+          <li><a href="#areas" class="footer__enlace">10 Áreas</a></li>
+          <li><a href="#proceso" class="footer__enlace">Proceso</a></li>
+          <li><a href="#contacto" class="footer__enlace">Solicitar diagnóstico</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer__inferior">
+      <div class="container footer__inferior-inner">
+        <p class="footer__legal">© 2025 Protego. Todos los derechos reservados. El diagnóstico gratuito tiene carácter orientativo y no constituye asesoría jurídica.</p>
+        <p class="footer__legal">Los servicios de Protego se prestan conforme a la legislación mexicana vigente.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
